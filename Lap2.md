@@ -1,4 +1,4 @@
-mermaid
+```mermaid
 erDiagram
     SUBJECT {
         string subject_id
