@@ -1,5 +1,5 @@
-```mermaid
-erDiagram
+`erDiagram
+    direction LR
     SUBJECT {
         string subject_id
         string subject_name
@@ -58,3 +58,4 @@ erDiagram
     STUDENT ||--o{ STUDENT_ANSWER : submits
     EXAM ||--o{ STUDENT_ANSWER : contains
     STUDENT_ANSWER }o--|| QUESTION : answers
+
